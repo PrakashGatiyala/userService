@@ -17,13 +17,13 @@ import org.springframework.security.oauth2.server.authorization.settings.ClientS
 
 import java.util.UUID;
 
-@SpringBootTest
+//@SpringBootTest
 public class InsertRegisteredClientTest {
-    @Autowired
+//    @Autowired
     private PasswordEncoder passwordEncoder;
-    @Autowired
+//    @Autowired
     private JpaRegisteredClientRepository jpaRegisteredClientRepository;
-    @Test
+//    @Test
     public void insertNewClientToDb(){
 
 //        RegisteredClient postmanClient = RegisteredClient.withId(UUID.randomUUID().toString())
